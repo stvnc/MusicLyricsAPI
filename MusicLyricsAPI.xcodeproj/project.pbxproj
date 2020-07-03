@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		BF9AD6C524AE3464001BE257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6C424AE3464001BE257 /* AppDelegate.swift */; };
 		BF9AD6C724AE3464001BE257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6C624AE3464001BE257 /* SceneDelegate.swift */; };
-		BF9AD6C924AE3464001BE257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6C824AE3464001BE257 /* ViewController.swift */; };
 		BF9AD6CC24AE3464001BE257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD6CA24AE3464001BE257 /* Main.storyboard */; };
 		BF9AD6CE24AE3466001BE257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD6CD24AE3466001BE257 /* Assets.xcassets */; };
 		BF9AD6D124AE3466001BE257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9AD6CF24AE3466001BE257 /* LaunchScreen.storyboard */; };
+		BF9AD6D924AE3486001BE257 /* LyricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6D824AE3486001BE257 /* LyricsStore.swift */; };
+		BF9AD6DB24AE3503001BE257 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6DA24AE3503001BE257 /* Search.swift */; };
+		BF9AD6DD24AE354E001BE257 /* Lyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6DC24AE354E001BE257 /* Lyrics.swift */; };
+		BF9AD6E224AE38C6001BE257 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6E124AE38C6001BE257 /* SearchController.swift */; };
+		BF9AD6E424AE3918001BE257 /* CustomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6E324AE3918001BE257 /* CustomContainerView.swift */; };
+		BF9AD6EA24AE3936001BE257 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6E924AE3936001BE257 /* Extensions.swift */; };
+		BF9AD6EC24AE395B001BE257 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6EB24AE395B001BE257 /* CustomTextField.swift */; };
+		BF9AD6F024AE4B99001BE257 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6EF24AE4B98001BE257 /* ScrollView.swift */; };
+		BF9AD6F224AE531B001BE257 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9AD6F124AE531B001BE257 /* ResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF9AD6C124AE3464001BE257 /* MusicLyricsAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicLyricsAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9AD6C424AE3464001BE257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF9AD6C624AE3464001BE257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF9AD6C824AE3464001BE257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF9AD6CB24AE3464001BE257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF9AD6CD24AE3466001BE257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF9AD6D024AE3466001BE257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF9AD6D224AE3466001BE257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9AD6D824AE3486001BE257 /* LyricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsStore.swift; sourceTree = "<group>"; };
+		BF9AD6DA24AE3503001BE257 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		BF9AD6DC24AE354E001BE257 /* Lyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyrics.swift; sourceTree = "<group>"; };
+		BF9AD6E124AE38C6001BE257 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		BF9AD6E324AE3918001BE257 /* CustomContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainerView.swift; sourceTree = "<group>"; };
+		BF9AD6E924AE3936001BE257 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BF9AD6EB24AE395B001BE257 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BF9AD6EF24AE4B98001BE257 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		BF9AD6F124AE531B001BE257 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,71 @@
 		BF9AD6C324AE3464001BE257 /* MusicLyricsAPI */ = {
 			isa = PBXGroup;
 			children = (
+				BF9AD6E824AE3931001BE257 /* Utils */,
+				BF9AD6E024AE38B5001BE257 /* Controller */,
+				BF9AD6F424AE6B68001BE257 /* Service */,
+				BF9AD6DF24AE38AD001BE257 /* View */,
+				BF9AD6DE24AE388F001BE257 /* Model */,
 				BF9AD6C424AE3464001BE257 /* AppDelegate.swift */,
 				BF9AD6C624AE3464001BE257 /* SceneDelegate.swift */,
-				BF9AD6C824AE3464001BE257 /* ViewController.swift */,
 				BF9AD6CA24AE3464001BE257 /* Main.storyboard */,
 				BF9AD6CD24AE3466001BE257 /* Assets.xcassets */,
 				BF9AD6CF24AE3466001BE257 /* LaunchScreen.storyboard */,
 				BF9AD6D224AE3466001BE257 /* Info.plist */,
 			);
 			path = MusicLyricsAPI;
+			sourceTree = "<group>";
+		};
+		BF9AD6DE24AE388F001BE257 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AD6DA24AE3503001BE257 /* Search.swift */,
+				BF9AD6DC24AE354E001BE257 /* Lyrics.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF9AD6DF24AE38AD001BE257 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AD6EE24AE3E46001BE257 /* CustomView */,
+				BF9AD6EF24AE4B98001BE257 /* ScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF9AD6E024AE38B5001BE257 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AD6E124AE38C6001BE257 /* SearchController.swift */,
+				BF9AD6F124AE531B001BE257 /* ResultController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BF9AD6E824AE3931001BE257 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AD6E924AE3936001BE257 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BF9AD6EE24AE3E46001BE257 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AD6E324AE3918001BE257 /* CustomContainerView.swift */,
+				BF9AD6EB24AE395B001BE257 /* CustomTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		BF9AD6F424AE6B68001BE257 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BF9AD6D824AE3486001BE257 /* LyricsStore.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9AD6C924AE3464001BE257 /* ViewController.swift in Sources */,
 				BF9AD6C524AE3464001BE257 /* AppDelegate.swift in Sources */,
+				BF9AD6E424AE3918001BE257 /* CustomContainerView.swift in Sources */,
+				BF9AD6E224AE38C6001BE257 /* SearchController.swift in Sources */,
+				BF9AD6F024AE4B99001BE257 /* ScrollView.swift in Sources */,
+				BF9AD6F224AE531B001BE257 /* ResultController.swift in Sources */,
+				BF9AD6EA24AE3936001BE257 /* Extensions.swift in Sources */,
+				BF9AD6DB24AE3503001BE257 /* Search.swift in Sources */,
+				BF9AD6DD24AE354E001BE257 /* Lyrics.swift in Sources */,
 				BF9AD6C724AE3464001BE257 /* SceneDelegate.swift in Sources */,
+				BF9AD6D924AE3486001BE257 /* LyricsStore.swift in Sources */,
+				BF9AD6EC24AE395B001BE257 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
