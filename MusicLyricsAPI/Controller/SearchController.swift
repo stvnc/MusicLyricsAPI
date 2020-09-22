@@ -39,6 +39,8 @@ class SearchController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Search", for: .normal)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        button.setDimensions(height: 50, width: 70)
+        button.layer.cornerRadius = 70/4
         button.backgroundColor = #colorLiteral(red: 0.501310374, green: 1, blue: 0.6429474304, alpha: 1)
         button.titleLabel?.textColor = .black
         button.addTarget(self, action: #selector(handleSearchTapped), for: .touchUpInside)
@@ -83,13 +85,11 @@ class SearchController: UIViewController {
         let stack = UIStackView(arrangedSubviews: [artistContainerView, songContainerView, searchButton])
         stack.axis = .vertical
         stack.spacing = 15
-        stack.distribution = .fillProportionally
+        stack.distribution = .equalSpacing
         
         view.addSubview(stack)
         stack.anchor(top: appLogo.bottomAnchor, left: view.leftAnchor, right: view.rightAnchor, paddingTop: 15, paddingLeft: 32, paddingRight: 32)
-        
     }
-    
     
     @objc func handleSearchTapped(){
         guard var artist = artistTextField.text else { return }
