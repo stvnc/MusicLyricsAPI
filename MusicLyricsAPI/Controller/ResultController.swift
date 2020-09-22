@@ -49,7 +49,8 @@ class ResultController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.title = song
+        
+        self.title = song?.replacingOccurrences(of: "%20", with: " ")
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.isHidden = false
     }
